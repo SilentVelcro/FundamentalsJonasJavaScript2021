@@ -282,7 +282,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log("Someone else should drive.... DON'T LET SARAH DRIVE!");
 }
-*/
+
 //////////////////////////////////////////////////////////// THE SWITCH STATEMENT 26
 
 const day = 'monday';
@@ -324,3 +324,22 @@ if (day === 'monday'){
 } else {
     console.log('Not a valid day!');
 }
+*/
+//////////////////////////////////////////////////////////// STATEMENTS AND EXPRESSIONS 27
+
+// EXPRESSIONS = PRODUCE VALUE
+
+3 + 4 //<-- EXPRESSION
+1980//<-- EXPRESSION
+true && false && !false //<-- EXPRESSION
+
+// STATMENTS = DO NOT PRODUCE VALUE ON THEIR OWN && LIKE FULL SENTENCES OF ACTIONS WE WANT TO PREFORM
+
+if (23 > 10) {
+    const str = '23 is bigger';
+}
+
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1980} years old ${me}`)
+
+//////////////////////////////////////////////////////////// CONDITIONAL (TERNARY) OPERATOR 28
